@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="id_div">
+        <h1>Sv-Shop</h1>
+        <form action="/signin" method="post" name="User" onsubmit="return saveUser()">
+            <input type="text" id="id_email" placeholder="Enter Your Email" name="email">
+            <br> <br>
+            <input type="text" id="id_pass" placeholder="Enter Your Password" name="pass">
+            <br> <br>
+            <input type="submit" class="button-18" value="Sign In">
+        </form>
+        <br>
+        <button class="button-18" onclick="changePage()">Sign Up</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
